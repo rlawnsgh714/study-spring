@@ -11,6 +11,7 @@ public class HomeController {
 
     @Autowired
     public HomeController(MemberService memberService) {
+
         this.memberService = memberService;
     }
 }
